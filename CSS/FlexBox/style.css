@@ -1,0 +1,31 @@
+.border{
+    border: 1px gray solid;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+
+    width: 75%;
+    height: 400px;
+    background-color:rgb(67, 66, 66);
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly; /* horizontal alignment*/
+    align-items: center; /*vertical alignment*/
+}
+
+.child{
+
+    width: 20%;
+    height: 300px;
+    background-color: gray;
+}

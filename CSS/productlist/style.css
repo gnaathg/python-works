@@ -1,0 +1,46 @@
+body {
+    background-color: #0fa69c;
+}
+
+.card-group {
+
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.border {
+    border: 1px #fff0ca solid;
+}
+
+.card {
+
+    width: 30%;
+    min-height: 500px;
+    padding: 10px;
+    background-color: #fff0ca;
+}
+
+.card-image>img {
+    width: 100%;
+}
+
+.card-body>p {
+
+    line-height: 25px;
+    text-align: justify;
+    color: #875f00;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer>button{
+    height: 50px;
+}

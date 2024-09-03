@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- bootstrap java link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- fpnt awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .bg-gradient{
+
+    background-color: #6c6d76;
+background-image: linear-gradient(43deg, #6c6d76 0%, #160214 22%, #e6e2dc 49%, #181111 75%, #ffffff 100%);
+
+  }
+  .card>img {
+
+    width: 100%;
+  }
+
+  .carousel-item>img {
+    height: 500px;
+  }
+</style>
+
+<body class="bg-gradient">
+
+  <!-- nav section -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">The Stoic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+
+              <li><a class="dropdown-item" href="#">All Products</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="#">New Items</a></li>
+              <li>
+
+              </li>
+              <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-cart-shopping"></i>Cart
+            <span class="badge text-bg-dark rounded-circle">4</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end nav section -->
+
+  <!-- carousel -->
+
+  <!-- banner section start -->
+  <div class="container-fluid bg-dark p-5 ">
+    <h3 class="text-white text-center fw-bold">
+      Do it now or never.
+    </h3>
+  </div>
+
+  <!-- banner section end -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/pexels-chevanon-317155.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./image/pexels-victorfreitas-841130.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./image/pexels-pavel-danilyuk-6295797.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./image/pexels-leonardho-1552252.jpg " class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- carousel end -->
+
+  <!-- product list -->
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <img src="./image/pexels-mikhail-nilov-6739946.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boxing Gloves</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$50</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+          <img src="./image/pexels-mnzoutfits-1598505.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gym Shoes</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$10</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+          <img src="./image/pexels-dom-j-7304-45980.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Towel Combo</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$30</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <img src="./image/pexels-juliasakelli-1342529.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Water Bottle</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$40</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <img src="./image/pexels-mikhail-nilov-6739946.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boxing Gloves</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$50</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+          <img src="./image/pexels-mnzoutfits-1598505.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gym Shoes</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$10</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+          <img src="./image/pexels-dom-j-7304-45980.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Towel Combo</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$30</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mt-lg-0 mt-md-2 mt-sm-0 p-3">
+        <div class="card" style="width: 100%;">
+          <img src="./image/pexels-juliasakelli-1342529.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Water Bottle</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">$40</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- product list end -->
+
+  <!-- footer start -->
+
+  <footer class="bg-dark p-3 mt-3">
+    <h3 class="text-white text-center">
+      Copyright The Stoic 2024
+    </h3>
+  </footer>
+
+  <!-- footer end -->
+
+</body>
+
+</html>

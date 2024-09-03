@@ -1,0 +1,61 @@
+
+*{
+    margin: 0px;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+   
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.parent{
+    width: 50%;
+    min-height: 400px;
+    background-color: yellowgreen;
+}
+
+.parent >:nth-child(1){
+
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.parent >:nth-child(2){
+    width: 75%;
+    height: 100px;
+    background-color: rgb(23, 76, 76);
+
+}
+
+.parent >:nth-child(3){
+    width:100vw;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.parent >:nth-child(4){
+    width: 50vw;
+    height: 100px;
+    background-color: rgb(122, 77, 164);
+
+}
+
+.parent >:nth-child(5){
+    width:40%;
+    height: 100px;
+    background-color: rgb(38, 22, 54);
+}
+
+
+/* css media query */
+/* bootstrap */
+
+/* box model */
