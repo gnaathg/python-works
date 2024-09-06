@@ -1,0 +1,16 @@
+print()
+
+type()
+
+sorted()
+
+round()
+
+min()
+
+max()
+
+input()
+
+len()
+

@@ -1,0 +1,1 @@
+# Python program to check if the given number is a Disarium Number

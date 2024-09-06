@@ -1,0 +1,1 @@
+# Write a Python function that accepts a string and counts the number of upper- and lower-case letters. 

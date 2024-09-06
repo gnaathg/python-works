@@ -1,0 +1,1 @@
+#   Write a Python program to check whether the n-th element exists in a given list. 
