@@ -1,0 +1,34 @@
+OOP
+
+class object
+
+class - blueprint,design pattern,template
+
+class ClassName:
+
+    attributes
+    methods
+
+self-current instance reference
+super-parent class reference
+
+reference=ClassName()
+attributes initialize - __init__()
+object string representation __str__()
+
+
+inheritence
+
+    single
+    multiple
+    multi-level
+
+polymorphism
+
+    methodoverloading-same fn name different parameters
+    methodoverriding-same method signature in both parent class and child class
+
+abstraction
+
+    ABC,@abstractmethod
+
