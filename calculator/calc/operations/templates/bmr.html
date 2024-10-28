@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block main_block %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-3"></div>
+        <div class="col-6 border border-5 p-5 shadow">
+            <form action="" method="post">
+                <h1 class="text-center">
+                    BMR Calculator
+                </h1>
+                {% csrf_token %}
+                {{ form }}
+                <button type="submit">Find</button>
+            </form>
+            {{ result }}
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+{% if bmr %}
+    <h3>Results:</h3>
+    <p>Your BMR is: {{ bmr }} calories/day</p>
+    <p>Your recommended daily calorie intake is: {{ calorie }} calories/day</p>
+{% endif %}
+{% endblock %}

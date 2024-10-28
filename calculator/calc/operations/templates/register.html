@@ -1,0 +1,73 @@
+{%extends 'base.html'%}
+
+{%block main_block%}
+
+<div class="container">
+    <form action="" method="post">
+        <div class="row">
+            <div class="col-6">
+                {{form.first_name.label_tag}}
+                {{form.first_name}}
+            </div>
+            <div class="col-6">
+                {{form.last_name.label_tag}}
+                {{form.last_name}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {{form.address.label_tag}}
+                {{form.address}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                {{form.city.label_tag}}
+                {{form.city}}
+            </div>
+            <div class="col-6">
+                {{form.pincode.label_tag}}
+                {{form.pincode}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                {{form.email.label_tag}}
+                {{form.email}}
+            </div>
+            <div class="col-6">
+                {{form.phone.label_tag}}
+                {{form.phone}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                {{form.recommendation.label_tag}}
+                {{form.recommendation}}
+            </div>
+            <div class="col-6">
+                {{form.other.label_tag}}
+                {{form.other}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {{form.feedback.label_tag}}
+                {{form.feedback}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {{form.suggestion.label_tag}}
+                {{form.suggestion}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                {{form.recommendation_options.label_tag}}
+                {{form.recommendation_options}}
+            </div>
+        </div>
+    </form>
+</div>
+{%endblock%}

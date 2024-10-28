@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+
+{%block main_block%}
+
+<h1>Subtraction Operation</h1>
+    <div class="container">
+     <form action="" method="post">
+        {%csrf_token%}
+        <div>
+            <label for="">Enter number 1</label>
+            <input type="text" name="num1">
+        </div>
+
+        <div>
+            <label for="">Enter number 2</label>
+            <input type="text" name="num2">
+        </div>
+
+        <div>
+            <button type="submit">Subtract</button>
+        </div>
+     </form>
+     {{result}}
+    </div>
+{%endblock%}    
